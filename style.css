@@ -1,0 +1,55 @@
+body{
+    margin: 0;
+    background-color:honeydew;
+}
+header{
+    background-color: green;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-family: comic sans ms;
+}
+
+nav{
+    overflow: hidden;
+    background-color: violet;
+}
+    
+    nav a{
+        float: left;
+        color:blue;
+        padding: 10px;
+        text-decoration: none;
+}
+    nav a:hover{
+        background-color: black;
+    }
+
+.column{
+    float: left;
+    padding: 10px;
+}    
+
+.column.side{
+    width: 22%;
+}
+
+.column.middle{
+    width: 50%;
+}
+
+p{
+    text-align: justify;
+}
+
+h2{
+    text-align: center;
+}
+footer{
+    clear: both;
+    background-color: green;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-family: comic sans ms;
+}
