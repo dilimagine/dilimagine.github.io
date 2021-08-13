@@ -3,7 +3,7 @@ body{
     background-color:honeydew;
 }
 header{
-    background-color: blue;
+    background-color: green;
     color: white;
     padding: 20px;
     text-align: center;
@@ -40,11 +40,38 @@ nav{
 
 p{
     text-align: justify;
+    text-align: center;
+    color: red;
 }
 
 h2{
     text-align: center;
+    }
+
+h3{
+    text-align: center;
+    color: solid brown;
+        }
+
+div.gallery{
+    margin: 5px;
+    border: 3px solid black;
+    float: left;
+    width: 200px;
 }
+
+div.gallery:hover{
+    border: 3px solid red;
+
+}
+ 
+
+div.gallery.img{
+    width: 100%;
+    height: auto;
+}
+
+
 footer{
     clear: both;
     background-color: green;

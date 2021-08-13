@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+       <title>Dil Kumar BK</title>
+       <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+      <header>
+    <h1>Welcome to Dil's Website</h1>
+    <p>Software and Web Developer</p>
+    </header>
+
+<nav>
+    <a href="index.html">Home</a>
+    <a href="gallery.html">Gallery</a>
+    <a href="contact.html">Contact</a>
+</nav>
+
+<div class="container">
+
+    <div style="text-align: center;">
+
+        <h3>Contact Me</h3>
+        <p>For More Information about me Please Contact </p>
+
+    </div>
+
+</div>
+
+<form action="https://e3vwdl4bpd.execute-api.us-west-2.amazonaws.com/default/API2SES" method="POST">
+    <label for="first-name">First Name:</label>
+    <input type="text" id="first-name">
+
+    <label for="last-name">Last Name:</label>
+    <input type="text" id="last-name">
+
+    <label for="myemail">Email Address:</label>
+    <input type="email" id="myemail">
+
+    <input type="hidden" id="myhidden" name="send_to" value="centreheart.dil@gmail.com">
+
+    
+    <input type="submit">
+
+
+
+</form>
+
+
+
+
+<footer>
+    <p>copyright &copy; 2021 Dil Kumar BK</p>
+</footer>
+
+<script src="js/forms.js"></script>
+
+</body>
+</html>
