@@ -1,0 +1,14 @@
+
+div.calculator{
+    width: 400px;
+    background-color: orangered;
+}
+
+div.row{
+    display: flex;
+    justify-content: space-between;
+}
+
+.row>*{
+    width: 24.5%;
+}

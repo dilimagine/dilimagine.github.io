@@ -25,36 +25,73 @@
         <p>For More Information about me Please Contact </p>
 
     </div>
+</div>
 
 </div>
 
 <form action="https://e3vwdl4bpd.execute-api.us-west-2.amazonaws.com/default/API2SES" method="POST">
-    <label for="first-name">First Name:</label>
-    <input type="text" id="first-name">
+    
+    First Name:
+    <input type="text" id="first-name" name="name">
 
     <label for="last-name">Last Name:</label>
     <input type="text" id="last-name">
 
-    <label for="myemail">Email Address:</label>
-    <input type="email" id="myemail">
+    Gender:
+    <label>
+        <input type="radio" name="myradio" value="Male" checked> Male
+      </label>
+      
+      <label>
+        <input type="radio" name="myradio" value="Female"> Female
+      </label>
+    
 
-    <input type="hidden" id="myhidden" name="send_to" value="centreheart.dil@gmail.com">
+      <br>
+      <br> 
+    <label for="mydate">Date Of Birth:</label>
+    <input type="date" id="mydate">
+
+
+    <label for="address">Residential Address:</label>
+    <input type="text" id="address">
+
+    <label for="profession">Profession:</label>
+    <input type="text" id="profession">
+
+
+    <label>
+        <input type="radio" name="myradio" value="choice1" checked> Choice 1
+
+
+    <label for="country">Country:</label>
+    <select id="country">
+        <option>Nepal</option>
+        <option>India</option>
+        <option>China</option>
+    </select>
 
     
+    <input type="email" id="myemail" name="email">
+
+
+
+
+    <label for="subject">Subject:</label>
+    <textarea id="subject"></textarea>
+   
     <input type="submit">
 
+    <input type="hidden" id="myhidden" name="send_to" value="centreheart.dil@gmail.com">
 
 
 </form>
 
 
 
-
 <footer>
     <p>copyright &copy; 2021 Dil Kumar BK</p>
 </footer>
-
-<script src="js/forms.js"></script>
 
 </body>
 </html>

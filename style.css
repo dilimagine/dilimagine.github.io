@@ -20,6 +20,7 @@ nav{
         color:blue;
         padding: 10px;
         text-decoration: none;
+        font-weight: bold;
 }
     nav a:hover{
         background-color: black;
@@ -41,7 +42,7 @@ nav{
 p{
     text-align: justify;
     text-align: center;
-    color: red;
+    color:orange;
 }
 
 h2{
@@ -60,6 +61,11 @@ div.gallery{
     width: 200px;
 }
 
+div.gallery img{
+    width: 200px;
+    height: 200px;
+}
+
 div.gallery:hover{
     border: 3px solid red;
 
@@ -69,6 +75,57 @@ div.gallery:hover{
 div.gallery.img{
     width: 100%;
     height: auto;
+}
+
+
+input[type=text], select, textarea{
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #ccc;
+        margin-top: 6px;
+        margin-bottom: 16px;
+        resize: vertical;
+}
+
+
+input[type=email]{
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #ccc;
+        margin-top: 6px;
+        margin-bottom: 16px;
+        resize: vertical;
+}
+
+input[type=date]{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}   
+
+input[type=radio]{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}   
+
+
+
+input[type=submit]{
+        background-color: red;
+        color: white;
+        padding: 12px 20px;
+        border: none;
+        cursor: pointer;
+        margin: 2px;
+
+
 }
 
 
